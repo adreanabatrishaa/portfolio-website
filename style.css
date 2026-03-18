@@ -5,6 +5,27 @@ body {
   color: #e2e8f0; /* soft white */
 }
 
+.sidebar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 180px;
+  background: #020617;
+  padding-top: 2rem;
+}
+
+.sidebar a {
+  display: block;
+  color: #cbd5f5;
+  padding: 12px 20px;
+  text-decoration: none;
+}
+
+.sidebar a:hover {
+  background: #3b82f6;
+  color: white;
+}
 /* HEADER */
 header {
   background: linear-gradient(135deg, #4F46E5, #6366F1);
