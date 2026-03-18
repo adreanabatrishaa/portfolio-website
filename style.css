@@ -1,12 +1,13 @@
 body {
-  font-family: "PlayFair Display", serif;
+  font-family: "Playfair Display", serif;
   margin: 0;
-  background-color: #f8fafc;
-  color: #222;
+  background-color: #0f172a; /* dark navy */
+  color: #e2e8f0; /* soft white */
 }
 
+/* HEADER */
 header {
-  background-color: #4F46E5;
+  background: linear-gradient(135deg, #4F46E5, #6366F1);
   color: white;
   text-align: center;
   padding: 3rem 1rem;
@@ -17,37 +18,42 @@ header h1 {
   font-size: 2.5rem;
 }
 
+/* SECTIONS */
 section {
   padding: 2rem;
   max-width: 800px;
   margin: auto;
 }
 
+/* TITLES */
 h2 {
-  color: #004aad;
-  border-bottom: 2px solid #ffd700;
+  color: #818cf8; /* soft purple */
+  border-bottom: 2px solid #3b82f6; /* blue accent */
   display: inline-block;
   margin-bottom: 1rem;
 }
 
+/* PROJECT CARD */
 .project {
-  background-color: #E0E7FF;
-  border-radius: 10px;
-  padding: 1rem;
-  margin-bottom: 1rem;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
+  background-color: #1e293b; /* dark card */
+  border-radius: 12px;
+  padding: 1.2rem;
+  margin-bottom: 1.2rem;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.3);
 }
 
+/* FOOTER */
 footer {
-  background-color: #4F46E5;
-  color: white;
+  background-color: #020617;
+  color: #94a3b8;
   text-align: center;
   padding: 1rem;
   margin-top: 2rem;
 }
 
+/* LINKS */
 a {
-  color: #004aad;
+  color: #60a5fa;
   text-decoration: none;
 }
 
