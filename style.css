@@ -23,14 +23,16 @@ section {
   padding: 2rem;
   max-width: 800px;
   margin: auto;
+  background-color: #020617; /* dark */
+  border-radius: 12px;
+  margin-top: 20px;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.3);
 }
 
 /* TITLES */
 h2 {
-  color: #818cf8; /* soft purple */
-  border-bottom: 2px solid #3b82f6; /* blue accent */
-  display: inline-block;
-  margin-bottom: 1rem;
+ color: #818cf8;
+ border-bottom: 2px solid #3b82f6;
 }
 
 /* PROJECT CARD */
